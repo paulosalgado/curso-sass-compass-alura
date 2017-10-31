@@ -9,6 +9,11 @@
   background-repeat: no-repeat;
 }
 
+.plataformas-sprite {
+  background-image: url('../img/plataformas-s27d043805f.png');
+  background-repeat: no-repeat;
+}
+
 /** Blog **/
 .blog {
   display: block;
@@ -467,18 +472,33 @@ header .container {
   margin: 1em 1.5em 0 0;
 }
 
+.plataformas li:nth-child(1),
+.plataformas li:nth-child(2),
+.plataformas li:nth-child(3),
+.plataformas li:nth-child(4) {
+  background: url("../img/plataformas-s27d043805f.png") no-repeat;
+}
+
 .plataformas li:nth-child(1) {
-  background-image: url(../img/logo-apple.png);
+  background-position: 0 -70px;
+  width: 50px;
+  height: 61px;
 }
 
 .plataformas li:nth-child(2) {
-  background-image: url(../img/logo-android.png);
+  background-position: 0 0;
+  width: 50px;
+  height: 60px;
 }
 
 .plataformas li:nth-child(3) {
-  background-image: url(../img/logo-windows.png);
+  background-position: 0 -196px;
+  width: 54px;
+  height: 54px;
 }
 
 .plataformas li:nth-child(4) {
-  background-image: url(../img/logo-blackberry.png);
+  background-position: 0 -141px;
+  width: 65px;
+  height: 45px;
 }

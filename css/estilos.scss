@@ -1,12 +1,15 @@
-@import 'helpers/variaveis';
-@import 'helpers/mixins';
+@import 'helpers/functions';
 @import 'helpers/placeholders';
+@import 'helpers/variaveis';
 
-@import 'layout/geral';
-@import 'layout/header';
-@import 'layout/destaque';
-@import 'layout/sobre';
-@import 'layout/planos';
+$sprite-spacing: 5px;
+@import "sprite/*.png";
+
 @import 'layout/blog';
 @import 'layout/contato';
+@import 'layout/destaque';
 @import 'layout/footer';
+@import 'layout/geral';
+@import 'layout/header';
+@import 'layout/planos';
+@import 'layout/sobre';
